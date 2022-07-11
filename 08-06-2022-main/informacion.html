@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./MT_HTML_1/styles/style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="lista"><a href="./index.html">Inicio</a></li>
+                <li class="lista"><a href="#">Información</a></li>
+                <li class="lista lista-r"><a href="#">Contactenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="secundario">
+        <form action="">
+            <div class="formulario">
+                <div class="unoporlinea">
+                    <label>Propietario del vehículo:</label>
+                    <input type="text" placeholder="Propietario del video" id="propietario">
+                    <label>Modelo del vehículo:</label>
+                    <input type="text" placeholder="Modelo del vehículo" id="modelo">
+                </div>
+                <div class="variosporlinea">
+                    <div class="varios"><label>Placa:</label>
+                        <input type="text" placeholder="NN-NN-LL" id="placa">
+                    </div>
+                    <div class="varios"><label>Tipo de vehículo:</label>
+                        <select name="Tipo" id="tipo">
+                            <option value="">Seleccionar</option>
+                            <option value="carro">Carro</option>
+                            <option value="moto">Moto</option>
+                            <option value="bicicleta">Bicicleta</option>
+                            <option value="bus">Bus</option>
+                            <option value="Motomami">Motomami</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="variosporlinea">
+                    <div class="varios"><label for="fecha">Fecha de Entrada:</label>
+                        <input type="date" placeholder="dd/mm/aaaa" id="fecha"><br>
+                    </div>
+                    <div class="varios"><label for="hora">Hora de inicio:</label>
+                        <input type="time" placeholder="hh:mm" id="hora"><br>
+                    </div>
+                    <div class="varios"><label for="cantidad">Cantidad de Horas:</label>
+                        <input type="text" placeholder="Cantidad" id="cantidad"><br>
+                    </div>
+                </div>
+            </div>
+            <button type="sumbit">Enviar</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
